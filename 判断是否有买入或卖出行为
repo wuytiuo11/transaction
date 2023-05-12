@@ -1,0 +1,7 @@
+def is_buy_or_sell(transaction):
+    if transaction['to'] == wallet_address:
+        return 'buy'
+    elif transaction['from'] == wallet_address:
+        return 'sell'
+    else:
+        return None
